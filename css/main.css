@@ -155,7 +155,7 @@ ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
-	background: #d5256d;
+	background: #3a84df;
 	border-top: 8px #363942 solid;
 	/* border-bottom: 8px #363942 solid; */
 }
@@ -212,7 +212,7 @@ ul li {
     position: relative;
 }
 #header.fixed {
-	background-color: #e8206b;
+	background-color: #3a84df;
 }
 #header.fixed a {
 	/* color: #fff; */
