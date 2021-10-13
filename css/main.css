@@ -134,7 +134,8 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 60px 0;
+	/*padding: 60px 0;*/
+	padding: 0 0;
 	margin-bottom: 50px;
 }
 .no-padding {
@@ -168,16 +169,34 @@ ul li {
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
 }
-#header .logo {
+#header .logo_tel {
+	color: #df2068;
 	float: left;
-	font-size: 65px;
+	font-size: 3em;
 	color: white;
 	text-decoration:none;
 	letter-spacing: 2px;
 	/* margin-top: -10px; */
 	font-family: 'Great Vibes', cursive;
 	font-weight: 700;
-	text-transform: lowercase;
+	/*text-transform: lowercase;*/
+	line-height: 2em;
+	position: relative;
+	top: 1px;
+}
+#header .logo_tel span {
+	display: inline-block;
+}
+#header .logo {
+	float: left;
+	font-size: 3em;
+	color: white;
+	text-decoration:none;
+	letter-spacing: 2px;
+	/* margin-top: -10px; */
+	font-family: 'Great Vibes', cursive;
+	font-weight: 700;
+	/*text-transform: lowercase;*/
 	line-height: 45px;
 	position: relative;
 	top: 5px;
@@ -380,7 +399,7 @@ ul li {
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
     color: #fff;
-    font-size: 70px;
+    font-size: 3em;
 }
 
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
@@ -409,13 +428,18 @@ ul li {
   width:100%;
 }
 
+margin_top_60 {
+	margin-top: 60px;
+	font-size: 35px;
+}
+
 .carousel-inner .item .container {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     bottom: 0;
-    top: 0;
+    top: 80px;
     left: 0;
     right: 0;
 }
@@ -1036,3 +1060,57 @@ ul.list-default li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tablePrix {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tablePrix caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+.tablePrix tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+.tablePrix th,
+.tablePrix td {
+  padding: .625em;
+  text-align: left;
+  font-size: 1.2em;
+  color: black;
+}
+
+.tablePrix th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
