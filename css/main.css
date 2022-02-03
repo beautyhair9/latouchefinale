@@ -13,17 +13,20 @@
     background-image: url('../images/slides/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+	background-position: center center;
 }
 #first-slider .slide2 {
   background-image: url('../images/slides/2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   /* background-position-x: -402px; */
 }
 #first-slider .slide3 {
   background-image: url('../images/slides/3.jpg');
       background-size: cover;
     background-repeat: no-repeat;
+	background-position: center center;
 }
 
 /* ------------------------------------------------------------------------------
