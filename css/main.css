@@ -124,6 +124,16 @@ a.morebtn:hover {
     color: #fff;
     background: #e8206b;
 }
+
+a.headcontact {
+    color: #669cff;
+}
+#header.fixed .headcontact {
+    color: #669cff;
+
+}
+
+
 body {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 400;
@@ -204,6 +214,11 @@ ul li {
 	position: relative;
 	top: 5px;
 }
+
+#header.fixed .logo  {
+	color: #fafbfc;
+}
+
 #header .logo span {
     font-weight: 400;
     font-family: monospace;
@@ -908,7 +923,7 @@ ul.list-default li {
 	 Testimonials
 -------------------------------------------------------------------------------*/
 .testimonials {
-	background-color: #e8206b;
+	background-color: #5e696c;
 	position: relative;
 	text-align: center;
 }
