@@ -168,7 +168,7 @@ ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
-	background: #3a84df;
+	background: #096c87;
 	border-top: 8px #363942 solid;
 	/* border-bottom: 8px #363942 solid; */
 }
@@ -578,11 +578,12 @@ margin_top_60 {
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #e8206b;
+	background-color: #020001;	
 	/* color: #000; */
 }
 .intro h3 {
 	color: #fff;
+	font-family: 'Lato', sans-serif;
 	margin-bottom: 20px;
 	font-size: 38px;
 }
@@ -923,7 +924,7 @@ ul.list-default li {
 	 Testimonials
 -------------------------------------------------------------------------------*/
 .testimonials {
-	background-color: #5e696c;
+	background-color: #054252;
 	position: relative;
 	text-align: center;
 }
