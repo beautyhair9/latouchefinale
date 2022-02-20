@@ -165,7 +165,7 @@ ul li {
 	Header
 -------------------------------------------------------------------------------*/
 #header {
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 	z-index: 999;
 	background: #096c87;
@@ -202,7 +202,7 @@ ul li {
 }
 #header .logo {
 	float: left;
-	font-size: 3em;
+	font-size: 2.5em;
 	color: white;
 	text-decoration:none;
 	letter-spacing: 2px;
