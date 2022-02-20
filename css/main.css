@@ -168,7 +168,8 @@ ul li {
 	/*position: fixed;*/
 	width: 100%;
 	z-index: 999;
-	background: #096c87;
+	/*background: #096c87;*/
+	background-image: url(../images/estetica2.jpg);
 	border-top: 8px #363942 solid;
 	/* border-bottom: 8px #363942 solid; */
 }
