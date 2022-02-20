@@ -204,7 +204,7 @@ ul li {
 #header .logo {
 	float: left;
 	font-size: 2.5em;
-	color: white;
+	color: #091060;
 	text-decoration:none;
 	letter-spacing: 2px;
 	/* margin-top: -10px; */
@@ -260,9 +260,9 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: #f9f2ef;
+	color: #190e74;
 	font-size: 14px;
-	/* font-weight: 700; */
+	font-weight: 800; 
 	margin-left: 40px;
 	text-transform: uppercase;
 }
