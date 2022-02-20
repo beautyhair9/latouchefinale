@@ -170,7 +170,8 @@ ul li {
 	z-index: 999;
 	/*background: #096c87;*/
 	background-image: url(../images/estetica3.jpg);
-	border-top: 8px #363942 solid;
+	background-repeat: no-repeat;
+	/*border-top: 8px #363942 solid;*/
 	/* border-bottom: 8px #363942 solid; */
 }
 #header .header-content {
@@ -204,16 +205,17 @@ ul li {
 #header .logo {
 	float: left;
 	font-size: 2.5em;
-	color: #091060;
+	color: #f3f4fd;
 	text-decoration:none;
 	letter-spacing: 2px;
 	/* margin-top: -10px; */
 	font-family: 'Great Vibes', cursive;
 	font-weight: 700;
 	/*text-transform: lowercase;*/
-	line-height: 38px;
+	/*line-height: 38px;*/
+	line-height: 0.9em;
 	position: relative;
-	top: 3px;
+	top: 0px;
 }
 
 #header.fixed .logo  {
