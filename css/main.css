@@ -422,6 +422,7 @@ ul li {
     color: black;
     font-size: 4em;
 	font-family: 'Great Vibes', cursive;
+	text-shadow: 1px 1px 2px white;
 	font-weight: bold;
 }
 
@@ -433,6 +434,7 @@ ul li {
     line-height: 35px;
     font-family: sans-serif;
 	font-weight: bold;
+	text-shadow: 1px 1px 2px white;
 }
 #first-slider .slide1 .text-left ,#first-slider .slide3 .text-left{
     padding-left: 40px;
