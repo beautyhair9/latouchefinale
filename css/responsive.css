@@ -1,7 +1,7 @@
 @media screen and (max-width: 1024px) {
  #header .header-content {
- width: 90%;
- padding: 2px 0;
+ width: 100%;
+ padding: 1px 2px 2px 6px;
 }
  #header.fixed a {
  color: #353535;
@@ -70,6 +70,11 @@
 #header.fixed a.logo{
 	 color: #2f2678;
 }
+
+#header .logo{
+  width: 100%;
+}
+
  .banner-text {
  padding-top: 30%;
 }
@@ -88,6 +93,12 @@
  .footer .footer-col {
  margin-bottom: 50px;
 }
+
+.footer {
+  text-align: left;
+  font-size: 10px;
+}
+
 }
 @media screen and (max-width: 640px) {
 #first-slider .carousel .item {
