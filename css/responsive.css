@@ -2,6 +2,7 @@
  #header .header-content {
  width: 100%;
  padding: 1px 2px 2px 6px;
+ background-color: black;
 }
  #header.fixed a {
  color: #353535;
